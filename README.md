@@ -14,7 +14,6 @@ A Windows service application that processes email messages from a SQL Server da
 - [Monitoring](#monitoring)
 - [Troubleshooting](#troubleshooting)
 - [Development](#development)
-- [License](#license)
 
 ## Overview
 
@@ -738,4 +737,5 @@ SELECT * FROM vw_LockedMessages;
 - Changed queue slice to twice the check interval (instead of same as interval)
 - Improved reliability and prevented system resource overuse
 - Reduced network service demand and bandwidth usage
+
 
